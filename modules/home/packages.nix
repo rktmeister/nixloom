@@ -4,6 +4,8 @@
     neovim
     helix
     vim
+    emacs
+    emacsPackages.magit
 
     # shell tools
     fzf
@@ -26,12 +28,20 @@
     gh
     lazygit
     delta
+    difftastic
+    mergiraf
 
     # file management
     stow
 
     # prompt
     oh-my-posh
+
+    # python
+    uv
+
+    # networking
+    cloudflared
 
     # misc
     curl
@@ -42,6 +52,7 @@
     dust
     just
     jujutsu
+    lazyjj
     kanata
     ast-grep
   ];
