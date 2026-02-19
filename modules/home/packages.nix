@@ -7,6 +7,9 @@
     emacs
     emacsPackages.magit
 
+    # shells
+    nushell
+
     # shell tools
     fzf
     zoxide
@@ -42,6 +45,9 @@
 
     # networking
     cloudflared
+
+    # secrets
+    bitwarden-cli
 
     # misc
     curl
