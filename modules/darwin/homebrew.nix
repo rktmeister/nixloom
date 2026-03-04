@@ -20,7 +20,6 @@
     casks = [
       "iina"
       "git-credential-manager"
-      "mactex"
     ];
 
     onActivation = {
