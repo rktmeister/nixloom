@@ -9,7 +9,7 @@
 
   nix.settings.experimental-features = "nix-command flakes";
 
-  system.primaryUser = "nevera";
+  system.primaryUser = "dylan";
   system.configurationRevision = inputs.self.rev or inputs.self.dirtyRev or null;
   system.stateVersion = 5;
 
@@ -28,7 +28,7 @@
   nix-homebrew = {
     enable = true;
     enableRosetta = true;
-    user = "nevera";
+    user = "dylan";
     taps = {
       "homebrew/homebrew-core" = inputs.homebrew-core;
       "homebrew/homebrew-cask" = inputs.homebrew-cask;
@@ -42,7 +42,7 @@
     useGlobalPkgs = true;
     useUserPackages = true;
     extraSpecialArgs = { inherit inputs; };
-    users.nevera = {
+    users.dylan = {
       imports = [
         ../../modules/home/packages.nix
         ../../modules/home/dev.nix
