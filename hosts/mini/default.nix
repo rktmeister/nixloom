@@ -10,6 +10,7 @@
   nix.settings.experimental-features = "nix-command flakes";
 
   system.primaryUser = "dylan";
+  users.users.dylan.home = "/Users/dylan";
   system.configurationRevision = inputs.self.rev or inputs.self.dirtyRev or null;
   system.stateVersion = 5;
 
