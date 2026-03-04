@@ -47,6 +47,8 @@
     cloudflared
 
     # secrets
+    pass
+    docker-credential-helpers
     bitwarden-cli
 
     # misc
